@@ -1,0 +1,41 @@
+[Project]
+project directory = ./wave_data
+
+[Problem]
+problem = wave equation
+final time = 20
+
+[Multigrid]                                                                                               
+
+#Default setting 
+
+[Grid]
+# grid size: required at least nx and optionally ny and nz
+grid size x = 32
+
+#Options for grid type, one of: CPU_grid, MPI_grid, GPU_grid
+grid type = MPI_grid
+
+
+# domain size: coma separate values for lx and optionally for ly and lz
+domain size x = 10
+
+[Output]
+
+# a list fields 
+output fields = u, v
+
+# the frequency of output 
+delta output = 1
+
+# log the output
+verbose = yes
+
+debug = no
+
+
+
+
+
+
+

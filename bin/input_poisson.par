@@ -1,0 +1,54 @@
+[Project]
+project directory = ./poisson_data
+
+[Problem]
+problem = poisson equation
+
+final time = 0
+
+gaussian amplitude = 0.004
+
+gaussian sigma = 1
+
+[Multigrid]
+
+verbose multigrid = yes
+
+pre cycles = 10
+post cycles = 8
+
+fine grid tolerance = 1e-6
+coarse grid tolerance = 1e-8
+
+[Grid]
+# grid size: required at least nx and optionally ny and nz
+grid size x = 32
+
+#Options for grid type, one of: CPU_grid, MPI_grid, GPU_grid
+grid type = MPI_grid
+
+
+finite difference order = 4
+
+# domain size: coma separate values for lx and optionally for ly and lz
+domain size x = 5
+
+[Output]
+
+# a list fields 
+output fields = rho, v
+
+# the frequency of output 
+delta output = 0
+
+# log the output
+verbose = yes
+
+debug = yes
+
+
+
+
+
+
+

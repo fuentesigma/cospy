@@ -1,0 +1,70 @@
+[Project]
+project directory = ./sp_data
+
+[Problem]
+problem = schroedinger poisson equation
+
+final time = 15
+
+sponge radius percentage = 0.5
+
+#[ground state, orbit, other]
+initial data = binary ground state
+
+position 1 x-direction = 4
+momentum 1 x-direction = 0
+position 1 y-direction = 0
+momentum 1 y-direction = 0
+position 1 z-direction = 0
+momentum 1 z-direction = 0
+
+position 2 x-direction = -7
+momentum 2 x-direction = 1.5
+position 2 y-direction = 0
+momentum 2 y-direction = 0
+position 2 z-direction = 0
+momentum 2 z-direction = 0
+
+[Multigrid]
+
+verbose multigrid = no
+
+pre cycles = 10
+post cycles = 8
+
+fine grid tolerance = 1e-6
+coarse grid tolerance = 1e-8
+
+[Grid]
+# grid size: required at least nx and optionally ny and nz
+grid size x =64
+
+#Options for grid type, one of: CPU_grid, MPI_grid, GPU_grid
+grid type = MPI_grid
+
+
+# domain size: coma separate values for lx and optionally for ly and lz
+domain size x = 25
+
+[Output]
+
+# a list fields 
+output fields = U, psiR, psiI, UI, rho
+
+# the frequency of output 
+delta output = 1
+
+delta analysis = 0.5
+
+
+# log the output
+verbose = yes
+
+debug = no
+
+
+
+
+
+
+
