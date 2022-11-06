@@ -2,7 +2,7 @@
 '''
 Created on 20 May 2015
 
-@author: Pablo Galaviz
+@author: Jesus Fuentes and Pablo Galaviz
 '''
 
 import visvis as vv
