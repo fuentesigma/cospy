@@ -1,7 +1,7 @@
 '''
 Created on 16 May 2015
 
-@author: Pablo Galaviz
+@author: Jesus Fuentes and Pablo Galaviz
 '''
 import logging
 import h5py
