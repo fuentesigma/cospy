@@ -46,7 +46,7 @@ if __name__ == '__main__':
     rootLogger.setLevel(logging.INFO)
     
     
-    epilog_text=" =============================\n     Author: Pablo Galaviz    \n     pablo.galaviz@me.com  \n =============================\n   License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html> \n   This is free software: you are free to change and redistribute it.\n   There is NO WARRANTY, to the extent permitted by law."
+    epilog_text=" =============================\n     Authors: Jesus Fuentes and Pablo Galaviz \n =============================\n   License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html> \n   This is free software: you are free to change and redistribute it.\n   There is NO WARRANTY, to the extent permitted by law."
 
     parser = argparse.ArgumentParser(description='Cospy, cosmology amr solver', epilog=epilog_text,formatter_class=argparse.RawDescriptionHelpFormatter)    
     parser.add_argument('input_file', help='Input parameter file.',metavar='intput.par')
