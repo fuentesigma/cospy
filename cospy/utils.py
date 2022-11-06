@@ -1,7 +1,7 @@
 '''
 Created on 13 May 2015
 
-@author: Pablo Galaviz
+@author: Jesus Fuentes and Pablo Galaviz
 '''
 import os 
 import logging
@@ -152,8 +152,7 @@ def display_welcome():
     logging.info("============ Cospy  15.01 ============")
     logging.info("")
     logging.info("")
-    logging.info("         Author: Pablo Galaviz     ")
-    logging.info("         Pablo.Galaviz@me.com     ")
+    logging.info("  Authors: J. Fuentes and P. Galaviz  ")
     logging.info("")
     logging.info("")
     logging.info("======================================")
