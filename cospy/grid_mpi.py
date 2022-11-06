@@ -1,7 +1,7 @@
 '''
 Created on 18 May 2015
 
-@author: Pablo Galaviz
+@author: Jesus Fuentes and Pablo Galaviz
 '''
 import logging
 from mpi4py import MPI
