@@ -3,7 +3,7 @@
 '''
 Created on 13 May 2015
 
-@author: Pablo Galaviz
+@author: Jesus Fuentes and Pablo Galaviz
 '''
 
 import shutil
