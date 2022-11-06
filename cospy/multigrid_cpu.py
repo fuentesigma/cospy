@@ -1,7 +1,7 @@
 '''
 Created on 22 Jun 2015
 
-@author: pablo
+@author: Jesus Fuentes and Pablo Galaviz
 '''
 
 import logging
